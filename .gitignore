@@ -1,0 +1,33 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# Virtual environments and Python cache files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local databases and runtime logs
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+logs/*.log
+
+# Test and coverage output
+.pytest_cache/
+.pytest-tmp/
+pytest-cache-files-*/
+.coverage
+.coverage.*
+htmlcov/
+
+# Build output and operating system files
+build/
+dist/
+.DS_Store
+Thumbs.db

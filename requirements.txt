@@ -1,0 +1,6 @@
+# Project dependencies. Install them inside the virtual environment.
+Faker
+streamlit
+google-genai
+python-dotenv
+pytest
